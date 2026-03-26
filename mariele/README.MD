@@ -60,10 +60,10 @@ Esse problema utiliza arrays para encontrar a sublista contínua com maior soma.
 ## 4) Problema com Lista Encadeada 1
 
 **Nome do problema:**
-Reverse Linked List
+Linked List Cycle
 
 **Link:**
-https://leetcode.com/problems/reverse-linked-list/
+https://leetcode.com/problems/linked-list-cycle/
 
 **Plataforma:**
 LeetCode
@@ -72,6 +72,6 @@ LeetCode
 Lista Encadeada
 
 **Justificativa:**
-Esse problema explora diretamente a manipulação de ponteiros em uma lista encadeada. A estrutura é essencial porque o desafio consiste em inverter os nós sem usar memória extra significativa, apenas reorganizando as referências entre eles.
+Esse problema envolve verificar se uma lista encadeada possui um ciclo, ou seja, se algum nó aponta para um nó anterior na estrutura. A lista encadeada é essencial aqui, pois o desafio depende da navegação entre os nós por meio de ponteiros. A solução mais eficiente utiliza dois ponteiros (lento e rápido), explorando a estrutura dinâmica da lista sem necessidade de memória adicional, com complexidade O(n).
 
 
