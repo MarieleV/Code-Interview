@@ -87,8 +87,8 @@ Os problemas devem ser retirados de plataformas como:
 | Integrante     | Pilhas | Arrays | Listas Encadeadas |
 |---------------|--------|--------|------------------|
 | Alexandre     | 1      | 2      | 1                |
-| Maria Alice   | 1      | 1      | 1                |
-| Mariele       | 1      | 2      | 2                |
+| Maria Alice   | 1      | 1      | 2                |
+| Mariele       | 1      | 2      | 1                |
   
 
 ---
