@@ -22,10 +22,10 @@ A pilha é ideal para esse problema porque segue o princípio LIFO (Last In, Fir
 ## 2) Problema com Array 1
 
 **Nome do problema:**
-Two Sum
+Best Time to Buy and Sell Stock
 
 **Link:**
-https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 **Plataforma:**
 LeetCode
@@ -34,7 +34,7 @@ LeetCode
 Array
 
 **Justificativa:**
-O problema envolve percorrer um array em busca de dois elementos cuja soma seja igual a um valor alvo. O uso de array é natural pois os dados já estão organizados sequencialmente. Além disso, pode ser otimizado com uma tabela hash para reduzir a complexidade de tempo.
+O problema envolve analisar um array de preços ao longo do tempo para determinar o maior lucro possível com uma única compra e venda. O uso de array é adequado porque os dados representam uma sequência temporal, permitindo percorrer os valores uma única vez e manter o menor preço encontrado até o momento, calculando o lucro máximo de forma eficiente (O(n)).
 
 ---
 
@@ -74,21 +74,4 @@ Lista Encadeada
 **Justificativa:**
 Esse problema explora diretamente a manipulação de ponteiros em uma lista encadeada. A estrutura é essencial porque o desafio consiste em inverter os nós sem usar memória extra significativa, apenas reorganizando as referências entre eles.
 
----
 
-## 5) Problema com Lista Encadeada 2
-
-**Nome do problema:**
-Merge Two Sorted Lists
-
-**Link:**
-https://leetcode.com/problems/merge-two-sorted-lists/
-
-**Plataforma:**
-LeetCode
-
-**Estrutura de dados principal:**
-Lista Encadeada
-
-**Justificativa:**
-A lista encadeada é ideal porque permite inserir e reorganizar elementos dinamicamente sem necessidade de deslocamento de memória (como ocorreria em arrays). Isso torna o processo de merge mais eficiente ao apenas ajustar os ponteiros entre os nós.
